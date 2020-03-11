@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import Space from './Space.jpg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{display: "flex"}}>
+        <div style={{width : "20%", backgroundColor : '#282c34', color : '#ffffff'}}>
+        <h1> Edward Boorn </h1>
+        <h2> This will be my portfolio </h2>
+        </div>
+        <div style={{display : "inline-block"}}><img src={Space} style={{float : "right",width : '100%'}} alt="logo" /></div>
     </div>
   );
 }
