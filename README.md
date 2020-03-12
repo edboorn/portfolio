@@ -21,6 +21,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Builds the app for production to the `build` folder.<br />
 
+### `npm run deploy`
+
 **Note : Running this will deploy you changes to https://edboorn.github.io/portfolio**
 
 ### `npm run eject`
