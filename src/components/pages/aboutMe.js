@@ -9,7 +9,7 @@ export default function aboutMe() {
         <div style={{display : "inline-block",width:"40%", float: "left"}}>
           <h1>About me</h1>
           <p>
-            My name is Edward Boorn and I am a Product Analyst at PepperHQ. As a
+            My name is <code>Edward Boorn</code> and I am a Product Analyst at PepperHQ. As a
             developer-come-product person, I bring a wealth of experience from
             both disciplines which allows me to get the most out of the products
             that I am delivering.  </p>

@@ -11,7 +11,6 @@ import Divider from '@material-ui/core/Divider';
 
 import me from './../../me.jpg'
 
-import Home from "../pages/home";
 import AboutMe from "../pages/aboutMe";
 import Contact from "../pages/contact";
 import Education from "../pages/education";
