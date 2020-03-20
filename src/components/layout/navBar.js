@@ -7,6 +7,8 @@ import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import { withStyles } from '@material-ui/core/styles';
+import Divider from '@material-ui/core/Divider';
+
 import me from './../../me.jpg'
 
 import Home from "../pages/home";
@@ -15,32 +17,32 @@ import Contact from "../pages/contact";
 import Education from "../pages/education";
 import Skills from "../pages/skills";
 import WorkExperience from "../pages/workExperience";
+import PersonalProjects from "../pages/personalProjects";
 import { createBrowserHistory } from "history";
 
 const history = createBrowserHistory();
 
-const drawerWidth = 240;
+const drawerWidth = 270;
 
 const useStyles = makeStyles(theme => ({
   root: {
     display: "flex"
   },
-  appBar: {
-    width: `calc(100% - ${drawerWidth}px)`,
-    marginLeft: drawerWidth
-  },
   drawer: {
     width: drawerWidth,
-    flexShrink: 0
+    flexShrink: 0,
+    maxWidth : drawerWidth
   },
   drawerPaper: {
     width: drawerWidth
   },
   toolbar: theme.mixins.toolbar,
   content: {
-    flexGrow: 1,
     backgroundColor: theme.palette.background.default,
     padding: theme.spacing(3)
+  },
+  aboutContent : {
+    paddingLeft : '40%',
   }
 }));
 
@@ -57,18 +59,20 @@ const Navigation = withStyles(useStyles) (
         >
           <div className="personalIntro">
             <img alt="This is me " src={me} className="navImageStyle"/>
+            <Divider variant="middle"/>
           <h1>Edward Boorn</h1>
-          <h2>This is my Portfolio</h2>
+          <h2 className={classes.aboutContent} style={{padding:"5%"}} > Product // Tech // Space </h2>
+          <Divider variant="middle"/>
           </div>
           <div className={classes.toolbar} />
           <List>
-            <ListItem
+            {/* <ListItem
               button
               component={Link}
               to="/home"
             >
               <ListItemText>Home</ListItemText>
-            </ListItem>
+            </ListItem> */}
             <ListItem
               button
               component={Link}
@@ -100,6 +104,13 @@ const Navigation = withStyles(useStyles) (
             <ListItem
               button
               component={Link}
+              to="/personalProjects"
+            >
+              <ListItemText>Personal Projects</ListItemText>
+            </ListItem>
+            <ListItem
+              button
+              component={Link}
               to="/contact"
             >
               <ListItemText>Contact</ListItemText>
@@ -113,6 +124,7 @@ const Navigation = withStyles(useStyles) (
           <Route path="/education" component={Education}/>
           <Route path="/skills" component={Skills}/>
           <Route path="/workExperience" component={WorkExperience}/>
+          <Route path="/personalProjects" component={PersonalProjects}/>
         </main>
         </Router>
     )

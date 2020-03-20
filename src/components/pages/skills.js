@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
-export default function skills () {
-    return (
-        <div className="pageRoot">
-            <h1>These are my skills</h1>
-        </div>
-        
-    )
-
+export default function skills() {
+  return (
+    <div className="pageRoot">
+      <div className="comingSoon">
+        <h1>This is where you see my skills</h1>
+        <h2>Coming Soon</h2>
+      </div>
+    </div>
+  );
 }
