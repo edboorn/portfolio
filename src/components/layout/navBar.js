@@ -1,5 +1,5 @@
 import React from "react";
-import { Router, Route, Link } from "react-router-dom";
+import { Router, Route, Link, Redirect } from "react-router-dom";
 import { makeStyles } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
 import CssBaseline from "@material-ui/core/CssBaseline";
@@ -118,7 +118,9 @@ const Navigation = withStyles(useStyles) (
           </List>
         </Drawer>
         <main className={classes.content}>
-        <Route exact path="/portfolio" compoent={AboutMe}/>
+          <Route exact path="/portfolio/" >{
+            <Redirect to="/aboutMe"/>
+          }</Route>
           <Route path="/aboutMe" component={AboutMe}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/education" component={Education}/>
