@@ -118,7 +118,7 @@ const Navigation = withStyles(useStyles) (
           </List>
         </Drawer>
         <main className={classes.content}>
-        <Route exact path="/home" compoent={Home}/>
+        <Route exact path="/portfolio" compoent={AboutMe}/>
           <Route path="/aboutMe" component={AboutMe}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/education" component={Education}/>
