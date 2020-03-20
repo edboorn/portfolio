@@ -1,11 +1,10 @@
 import React from 'react';
- 
 
-export default function aboutMe () {
+export default function home () {
     return (
         <div className="pageRoot">
-        <h1>This is the about me page</h1>
+            <h1>This is the home page</h1>
         </div>
+        
     )
-
 }
