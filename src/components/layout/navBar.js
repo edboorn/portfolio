@@ -107,13 +107,13 @@ const Navigation = withStyles(useStyles) (
             >
               <ListItemText>Personal Projects</ListItemText>
             </ListItem>
-            <ListItem
+            {/* <ListItem
               button
               component={Link}
               to="/contact"
             >
               <ListItemText>Contact</ListItemText>
-            </ListItem>
+            </ListItem> */}
           </List>
         </Drawer>
         <main className={classes.content}>

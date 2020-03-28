@@ -44,7 +44,7 @@ export default function workExperience() {
         </TimelineItem>
         <TimelineItem
           key="003"
-          dateText="11/2010 – Present"
+          dateText="Jun 2016 - Dec 2016"
           dateInnerStyle={{ background: "#dddddd", color: "#000" }}
         >
           <h3>A & T Computing</h3>
@@ -61,7 +61,7 @@ export default function workExperience() {
         </TimelineItem>
         <TimelineItem
           key="004"
-          dateText="11/2010 – Present"
+          dateText="Aug 2016 - Sep 2016"
           dateInnerStyle={{ background: "#dddddd", color: "#000" }}
         >
           <h3>The London Fashion Agency</h3>

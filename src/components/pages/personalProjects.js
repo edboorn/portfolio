@@ -23,13 +23,12 @@ export default function PersonalProjects() {
             >
               <CardHeader
                 title="Nasa Explorer"
-                subheader="September 14, 2016"
+                subheader="React, JavaScript"
               />
               <CardMedia image="src/me.jpg" title="Paella dish" />
               <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  This will be the description of my project, who knows what it
-                  might be
+                  As a space nut, I decided to build a front end ontop of NASAs comprehensive API system. This will include the viewing of NASA images and (fingers crossed) some satellite mapping
                 </Typography>
               </CardContent>
             </Card>
@@ -44,64 +43,18 @@ export default function PersonalProjects() {
               }}
             >
               <CardHeader
-                title="Nasa Explorer"
-                subheader="September 14, 2016"
+                title="More Comming Soon!"
               />
               <CardMedia image="src/me.jpg" title="Paella dish" />
               <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  This will be the description of my project, who knows what it
-                  might be
+                  Like this website, my personal projects is a constantly growing list. This will be updated as and when I have something to show
                 </Typography>
               </CardContent>
             </Card>
           </Grid>
         </Grid>
         <Grid container spacing={2}>
-          <Grid item lg>
-            <Card
-              style={{
-                minWidth: 345,
-                maxWidth: 345,
-                float: "left",
-                margin: "5%"
-              }}
-            >
-              <CardHeader
-                title="Nasa Explorer"
-                subheader="September 14, 2016"
-              />
-              <CardMedia image="src/me.jpg" title="Paella dish" />
-              <CardContent>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  This will be the description of my project, who knows what it
-                  might be
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item lg>
-            <Card
-              style={{
-                minWidth: 345,
-                maxWidth: 345,
-                margin: "5%",
-                float: "left"
-              }}
-            >
-              <CardHeader
-                title="Nasa Explorer"
-                subheader="September 14, 2016"
-              />
-              <CardMedia image="src/me.jpg" title="Paella dish" />
-              <CardContent>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  This will be the description of my project, who knows what it
-                  might be
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
         </Grid>
       </Grid>
     </div>
