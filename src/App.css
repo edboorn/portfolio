@@ -71,3 +71,17 @@
 .skillsIntro {
   text-align :left
 }
+
+.socials { 
+  margin-top:calc(5% + 30px);
+  bottom: 0;
+  position:sticky;
+}
+
+.socialItem {
+  padding : 2%;
+}
+
+.socialItemLink {
+  color : #000000de
+}
