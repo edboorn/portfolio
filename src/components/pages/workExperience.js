@@ -3,7 +3,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 export default function workExperience() {
   return (
-    <div className="pageRoot">
+    <div>
       <Timeline lineColor={"#ddd"}>
         <TimelineItem
           key="001"

@@ -4,9 +4,8 @@ import spaceImg from "../../Space.jpg"
 
 export default function aboutMe() {
   return (
-    <div className="pageRoot">
-      <div style={{width:"100%"}}>
-        <div style={{display : "inline-block",width:"40%", float: "left"}}>
+    <div>
+
           <h1>About me</h1>
           <p>
             My name is <code>Edward Boorn</code> and I am a Product Analyst at PepperHQ. As a
@@ -19,10 +18,8 @@ export default function aboutMe() {
             pretty cool stuff in the process).
           </p>
               <h3>If you find this, this is a work in progress (I promise) </h3>
-        </div>
-        <div >
-          <img style={{width : "30%"}} alt="Space is the place" src={spaceImg}/></div>
-      </div>
+ 
+          <img style={{width : "30%"}} alt="Space is the place" src={spaceImg}/>
     </div>
   );
 }

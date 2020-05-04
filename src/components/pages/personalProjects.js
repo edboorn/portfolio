@@ -9,7 +9,7 @@ import Grid from "@material-ui/core/Grid";
 
 export default function PersonalProjects() {
   return (
-    <div className="pageRoot">
+    <div>
       <Grid>
         <Grid container spacing={2}>
           <Grid item lg>
@@ -53,8 +53,6 @@ export default function PersonalProjects() {
               </CardContent>
             </Card>
           </Grid>
-        </Grid>
-        <Grid container spacing={2}>
         </Grid>
       </Grid>
     </div>
