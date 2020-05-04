@@ -4,7 +4,12 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 export default function workExperience() {
   return (
     <React.Fragment>
-      <Timeline lineColor={"#ddd"}>
+      <div className="row" id="sectionHeading">
+        <div className="col">
+          <h4> Employment History</h4>
+        </div>
+      </div>
+      {/* <Timeline lineColor={"#ddd"}>
         <TimelineItem
           key="001"
           dateText="Sep 2018 – Present"
@@ -74,7 +79,7 @@ export default function workExperience() {
             building of the site that was happening simultaneously.
           </p>
         </TimelineItem>
-      </Timeline>
+      </Timeline> */}
     </React.Fragment>
   );
 }

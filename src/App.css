@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+#sectionHeading {
+  padding-bottom: 1%;
+}
 
 .container-sm {
   padding-top: 3%;

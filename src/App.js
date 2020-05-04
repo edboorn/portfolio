@@ -5,7 +5,9 @@ import "./App.css";
 // Page Fragment Imports
 import AboutMe from "./components/pages/aboutMe";
 import PersonalProjects from "./components/pages/personalProjects";
-import Skills from './components/pages/skills';
+import Skills from "./components/pages/skills";
+import WorkExperience from "./components/pages/workExperience";
+
 function App() {
   return (
     <div className="App">
@@ -16,11 +18,16 @@ function App() {
         </div>
         <div className="dropdown-divider"></div>
         <div className="homeItem">
-          <PersonalProjects />
+          <Skills />
         </div>
         <div className="dropdown-divider"></div>
         <div className="homeItem">
-          <Skills />
+          <PersonalProjects />
+        </div>
+
+        <div className="dropdown-divider"></div>
+        <div className="homeItem">
+          <WorkExperience />
         </div>
       </div>
     </div>

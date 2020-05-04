@@ -3,6 +3,11 @@ import { projects } from "../../data/projects";
 export default function PersonalProjects() {
   return (
     <React.Fragment>
+      <div className="row" id="sectionHeading" >
+        <div className="col" >
+          <h4> Personal Projects & Things I'm learning </h4>
+        </div>
+      </div>
       <div className="row">
         {projects.map((item, i) => (
           <div  key={i} className="col">
@@ -14,7 +19,6 @@ export default function PersonalProjects() {
                 </h5>
                 <div className="card-text">
                   {item.description}
-                  
                 </div>
               </div>
             </div>

@@ -6,9 +6,9 @@ export default function aboutMe() {
     <React.Fragment>
       <div className="row">
         <div className="col">
-          <h1>About me</h1>
+          <h1>Hi, I'm <code>Ed</code></h1>
           <p>
-            My name is <code>Edward Boorn</code> and I am a Product Analyst at
+            I am a Product Analyst at
             PepperHQ. As a developer-come-product person, I bring a wealth of
             experience from both disciplines which allows me to get the most out
             of the products that I am delivering.{" "}

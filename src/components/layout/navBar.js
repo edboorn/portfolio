@@ -1,8 +1,6 @@
 import React from "react";
 import { Router,Link } from "react-router-dom";
 
-import me from "./../../me.jpg";
-
 import { createBrowserHistory } from "history";
 
 const history = createBrowserHistory();
@@ -88,23 +86,6 @@ const Navigation = () => (
           <p> LinkedIn</p>
         </a>
       </div>
-    </div> */}
-    {/* <div className="container-sm">
-      <Switch>
-        <Route path="/portfolio" exact component={AboutMe} />
-        <Route path="/portfolio/education" exact component={Education} />
-        <Route path="/portfolio/skills" exact component={Skills} />
-        <Route
-          path="/portfolio/workExperience"
-          exact
-          component={WorkExperience}
-        />
-        <Route
-          path="/portfolio/personalProjects"
-          exact
-          component={PersonalProjects}
-        />
-      </Switch>
     </div> */}
   </Router>
 );
