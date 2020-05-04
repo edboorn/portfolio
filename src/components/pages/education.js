@@ -3,7 +3,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 export default function education() {
   return (
-    <div className="pageRoot">
+    <React.Fragment>
       <Timeline lineColor={"#ddd"}>
         <TimelineItem
           key="001"
@@ -70,6 +70,6 @@ export default function education() {
           </p>
         </TimelineItem>
       </Timeline>
-    </div>
+    </React.Fragment>
   );
 }

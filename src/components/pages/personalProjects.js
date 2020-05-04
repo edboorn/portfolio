@@ -1,62 +1,43 @@
 import React from "react";
-import Card from "@material-ui/core/Card";
-import CardHeader from "@material-ui/core/CardHeader";
-import CardMedia from "@material-ui/core/CardMedia";
-import CardContent from "@material-ui/core/CardContent";
-import Typography from "@material-ui/core/Typography";
-import Grid from "@material-ui/core/Grid";
-
-
+import { projects } from "../../data/projects";
 export default function PersonalProjects() {
   return (
-    <div className="pageRoot">
-      <Grid>
-        <Grid container spacing={2}>
-          <Grid item lg>
-            <Card
-              style={{
-                minWidth: 345,
-                maxWidth: 345,
-                float: "left",
-                margin: "5%"
-              }}
-            >
-              <CardHeader
-                title="Nasa Explorer"
-                subheader="React, JavaScript"
-              />
-              <CardMedia image="src/me.jpg" title="Paella dish" />
-              <CardContent>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  As a space nut, I decided to build a front end ontop of NASAs comprehensive API system. This will include the viewing of NASA images and (fingers crossed) some satellite mapping
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-          <Grid item lg>
-            <Card
-              style={{
-                minWidth: 345,
-                maxWidth: 345,
-                margin: "5%",
-                float: "left"
-              }}
-            >
-              <CardHeader
-                title="More Comming Soon!"
-              />
-              <CardMedia image="src/me.jpg" title="Paella dish" />
-              <CardContent>
-                <Typography variant="body2" color="textSecondary" component="p">
-                  Like this website, my personal projects is a constantly growing list. This will be updated as and when I have something to show
-                </Typography>
-              </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
-        <Grid container spacing={2}>
-        </Grid>
-      </Grid>
-    </div>
+    <React.Fragment>
+      <div className="row" id="sectionHeading">
+        <div className="col">
+          <h4> What I'm currently working on </h4>
+        </div>
+      </div>
+      <div className="row">
+        {projects.map((item, i) => (
+          <div key={i} className="col">
+            <div className="card mb-4 shadow-sm">
+              <div className="card-body">
+                <h4 className="card-title"> {item.title}</h4>
+                <div className="card-subtitle mb-2 text-muted">
+                  {item.techUsed.map((item, i) => (
+                    <span key={i} className="badge badge-secondary">
+                      {item}{" "}
+                    </span>
+                  ))}
+                </div>
+                <div className="card-text">
+                  {" "}
+                  <p>{item.description}</p>
+                </div>
+              </div>
+              <a
+                href={item.projectsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-dark"
+              >
+                Take a look!
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </React.Fragment>
   );
 }

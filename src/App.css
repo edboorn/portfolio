@@ -1,87 +1,31 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#sectionHeading {
+  padding-bottom: 1%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#mainHeader {
+  height: 100% !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#skillLogos {
+  padding-bottom: 5%;
+}
+#mainSkills {
+  padding-bottom: 3%;
 }
 
-.App-link {
-  color: #61dafb;
+.container-sm {
+  padding-top: 3%;
+}
+.dropdown-divider {
+  padding-top: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.homeItem {
+  padding-bottom: 2%;
 }
-.aboutItems {
-  display: inline-block;
-}
-.pageRoot {
-  padding-top: 50px;
-  padding-left: 250px;
-}
-
-.personalIntro { 
-  width : 100%;
-  max-width: 100%;
-}
-
-.navImageStyle {
-  padding: 10%;
-  width: 200px;
-}
-
-.comingSoon {
-  margin-left : 100%;
-  margin-top: 50%;
-  width : 100%;
-}
-
-.skillHeading {
-  text-align: left;
-}
-
-.skillSectionHeading {
-  text-align: left;
-}
-
-.skillsIntro {
-  text-align :left
-}
-
-.socials { 
-  margin-top:calc(5% + 30px);
-  bottom: 0;
-  position:sticky;
-}
-
-.socialItem {
-  padding : 2%;
-}
-
-.socialItemLink {
-  color : #000000de
+.badge {
+  margin : 2px;
 }
