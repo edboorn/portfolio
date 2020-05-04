@@ -32,7 +32,7 @@ const Navigation = () => (
               rel="noopener noreferrer"
               href="https://github.com/edboorn"
             >
-              <i class="fab fa-github fa-lg"></i>
+              <i className="fab fa-github fa-lg"></i>
             </a>
           </li>
           <li className="nav-item" to="/portfolio/workExperience">
@@ -42,7 +42,7 @@ const Navigation = () => (
               rel="noopener noreferrer"
               href="https://www.instagram.com/edboorn/"
             >
-              <i class="fab fa-instagram fa-lg"></i>
+              <i className="fab fa-instagram fa-lg"></i>
             </a>
           </li>
           <li className="nav-item" to="/portfolio/education">
@@ -52,7 +52,7 @@ const Navigation = () => (
               rel="noopener noreferrer"
               href="https://twitter.com/ed_boorn"
             >
-              <i class="fab fa-twitter fa-lg"></i>
+              <i className="fab fa-twitter fa-lg"></i>
             </a>
           </li>
           <li className="nav-item" to="/portfolio/skills">
@@ -62,7 +62,7 @@ const Navigation = () => (
               rel="noopener noreferrer"
               href="https://www.linkedin.com/in/edward-boorn/"
             >
-              <i class="fab fa-linkedin-in fa-lg"></i>
+              <i className ="fab fa-linkedin-in fa-lg"></i>
             </a>
           </li>
         </ul>

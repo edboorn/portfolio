@@ -1,10 +1,9 @@
 import React from "react";
-import spaceImg from "../../Space.jpg";
 import Me from '../../me.jpg'
 export default function aboutMe() {
   return (
     <React.Fragment>
-      <div className="row">
+      <div id="mainHeader"  className="row">
         <div className="col">
           <h1>Hi, I'm <code>Ed</code></h1>
           <p>

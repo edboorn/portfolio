@@ -5,6 +5,10 @@
   padding-bottom: 1%;
 }
 
+#mainHeader {
+  height: 100% !important;
+}
+
 .container-sm {
   padding-top: 3%;
 }
