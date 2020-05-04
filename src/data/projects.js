@@ -9,12 +9,12 @@ export const projects =[{
     description : "Demo Text",
 },
 {
-    title : "Covid Explorer",
+    title : "NodeJS",
     techUsed : "React, Javascript",
     description : "Demo Text",
 },
 {
-    title : "Covid Explorer",
+    title : "Machine Learning",
     techUsed : "React, Javascript",
     description : "Demo Text",
 }]
