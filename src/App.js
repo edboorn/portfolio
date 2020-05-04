@@ -2,6 +2,8 @@ import React from "react";
 import NavBar from "./components/layout/navBar";
 import "./App.css";
 
+import Fade from 'react-reveal/Fade'
+
 // Page Fragment Imports
 import AboutMe from "./components/pages/aboutMe";
 import PersonalProjects from "./components/pages/personalProjects";
@@ -14,7 +16,9 @@ function App() {
       <NavBar />
       <div className="container-sm">
         <div className="homeItem">
+          <Fade left>
           <AboutMe />
+          </Fade>
         </div>
         <div className="dropdown-divider"></div>
         <div className="homeItem">

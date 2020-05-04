@@ -22,7 +22,7 @@ export default function aboutMe() {
           
         </div>
         <div className="col">
-          <img src={Me} alt="This is me" width="350" />
+          <img src={Me} alt="This is me" width="300" />
         </div>
         
       </div>
