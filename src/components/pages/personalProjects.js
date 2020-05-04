@@ -16,13 +16,15 @@ export default function PersonalProjects() {
                 <h4 className="card-title"> {item.title}</h4>
                 <div className="card-subtitle mb-2 text-muted">
                   {item.techUsed.map((item, i) => (
-                    <div key={i}>
-                      {" "}
-                      <span  className="badge badge-secondary">{item} </span>
-                    </div>
+                    <span key={i} className="badge badge-secondary">
+                      {item}{" "}
+                    </span>
                   ))}
                 </div>
-                <div className="card-text"> <p>{item.description}</p></div>
+                <div className="card-text">
+                  {" "}
+                  <p>{item.description}</p>
+                </div>
               </div>
               <a
                 href={item.projectsUrl}

@@ -9,6 +9,13 @@
   height: 100% !important;
 }
 
+#skillLogos {
+  padding-bottom: 5%;
+}
+#mainSkills {
+  padding-bottom: 3%;
+}
+
 .container-sm {
   padding-top: 3%;
 }
@@ -18,4 +25,7 @@
 
 .homeItem {
   padding-bottom: 2%;
+}
+.badge {
+  margin : 2px;
 }

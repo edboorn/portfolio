@@ -15,7 +15,9 @@ export default function skills() {
         {mainSkills.map((item, i) => (
           <div key={i} className="col">
             {" "}
-            {item.title}
+            <i id="skillLogos" className={item.icon}></i>
+            <h5>{item.title}</h5>
+            <p>{item.description}</p>
           </div>
         ))}
       </div>
@@ -23,13 +25,13 @@ export default function skills() {
       <div id="skillsBreakdown" className="row">
         {skillsBreakdown.map((item, i) => (
           <div key={i} className="col">
-            <h4>{item.title}</h4>
+            <h6>{item.title}</h6>
+            <p>{item.description}</p>
             {item.items.map((skill, i) => (
-              <div key={i}>
-                <span className="badge badge-secondary">
-                  {skill}
-                </span>{" "}
-              </div>
+              <span key={i} className="badge badge-secondary">
+                {" "}
+                {skill}
+              </span>
             ))}
           </div>
         ))}
