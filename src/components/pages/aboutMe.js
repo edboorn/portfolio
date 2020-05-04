@@ -8,15 +8,12 @@ export default function aboutMe() {
           <h1>Hi, I'm <code>Ed</code></h1>
           <p>
             I am a Product Analyst at
-            PepperHQ. As a developer-come-product person, I bring a wealth of
+            PepperHQ and I love technology. As a developer-come-product person, I bring a wealth of
             experience from both disciplines which allows me to get the most out
             of the products that I am delivering.{" "}
           </p>
           <p>
-            On top of this, I continue to study all aspects of technology,
-            physics and maths in order to generally improve my output as an
-            individual (not to mention learning some pretty cool stuff in the
-            process).
+            Away from my work I love <code>programming</code>, <code>coffee</code>, <code>sport</code> and <code>food</code>
           </p>
           
         </div>

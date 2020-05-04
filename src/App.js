@@ -1,9 +1,10 @@
 import React from "react";
-import NavBar from "./components/layout/navBar";
 import "./App.css";
+import Fade from "react-reveal/Fade";
 
-import Fade from 'react-reveal/Fade'
-
+// Layout Imports
+import NavBar from "./components/layout/navBar";
+import Footer from "./components/layout/footer";
 // Page Fragment Imports
 import AboutMe from "./components/pages/aboutMe";
 import PersonalProjects from "./components/pages/personalProjects";
@@ -17,23 +18,30 @@ function App() {
       <div className="container-sm">
         <div className="homeItem">
           <Fade left>
-          <AboutMe />
+            <AboutMe />
           </Fade>
         </div>
         <div className="dropdown-divider"></div>
         <div className="homeItem">
-          <Skills />
+          <Fade right>
+            <Skills />
+          </Fade>
         </div>
         <div className="dropdown-divider"></div>
         <div className="homeItem">
-          <PersonalProjects />
+          <Fade left>
+            <PersonalProjects />
+          </Fade>
         </div>
 
         <div className="dropdown-divider"></div>
         <div className="homeItem">
-          <WorkExperience />
+          <Fade right>
+            <WorkExperience />
+          </Fade>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
