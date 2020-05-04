@@ -3,7 +3,7 @@ import { Timeline, TimelineItem } from "vertical-timeline-component-for-react";
 
 export default function workExperience() {
   return (
-    <div>
+    <React.Fragment>
       <Timeline lineColor={"#ddd"}>
         <TimelineItem
           key="001"
@@ -75,6 +75,6 @@ export default function workExperience() {
           </p>
         </TimelineItem>
       </Timeline>
-    </div>
+    </React.Fragment>
   );
 }

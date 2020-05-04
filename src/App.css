@@ -1,3 +1,14 @@
 .App {
   text-align: center;
 }
+
+.container-sm {
+  padding-top: 3%;
+}
+.dropdown-divider {
+  padding-top: 2%;
+}
+
+.homeItem {
+  padding-bottom: 2%;
+}

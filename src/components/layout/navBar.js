@@ -1,14 +1,8 @@
 import React from "react";
-import { Router, Route, Link, Redirect, Switch } from "react-router-dom";
+import { Router,Link } from "react-router-dom";
 
 import me from "./../../me.jpg";
 
-import AboutMe from "../pages/aboutMe";
-import Contact from "../pages/contact";
-import Education from "../pages/education";
-import Skills from "../pages/skills";
-import WorkExperience from "../pages/workExperience";
-import PersonalProjects from "../pages/personalProjects";
 import { createBrowserHistory } from "history";
 
 const history = createBrowserHistory();
@@ -17,7 +11,7 @@ const Navigation = () => (
   <Router history={history}>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <a className="navbar-brand" href="/portfolio">
-        <img alt="This is me " src={me} className="d-inline-block align-top" width="40" height="40"/>
+        {/* <img alt="This is me " src={me} className="d-inline-block align-top" width="40" height="40"/> */}
           Edward Boorn
       </a>
 
@@ -95,7 +89,7 @@ const Navigation = () => (
         </a>
       </div>
     </div> */}
-    <div className="container-sm">
+    {/* <div className="container-sm">
       <Switch>
         <Route path="/portfolio" exact component={AboutMe} />
         <Route path="/portfolio/education" exact component={Education} />
@@ -111,7 +105,7 @@ const Navigation = () => (
           component={PersonalProjects}
         />
       </Switch>
-    </div>
+    </div> */}
   </Router>
 );
 

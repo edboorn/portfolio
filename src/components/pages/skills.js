@@ -4,7 +4,7 @@ import Grid from "@material-ui/core/Grid";
 
 export default function skills() {
   return (
-    <div className="pageRoot">
+    <React.Fragment>
       <Grid>
         <Grid container spacing={2}>
           <Grid item lg>
@@ -69,6 +69,6 @@ export default function skills() {
           </Grid>
         </Grid>
       </Grid>
-    </div>
+    </React.Fragment>
   );
 }
