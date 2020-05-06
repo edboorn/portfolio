@@ -8,7 +8,9 @@
 #mainHeader {
   height: 100% !important;
 }
-
+#projectItem {
+  height: 90%;
+}
 #skillLogos {
   padding-bottom: 5%;
 }

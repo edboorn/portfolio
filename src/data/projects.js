@@ -6,6 +6,12 @@ export const projects = [
     projectsUrl: "https://edboorn.github.io/covid-explorer/",
   },
   {
+    title : "Redux",
+    techUsed : ["React, Javascript, Redux","Application Management"],
+    description : "Rebuilding my knowledge of Redux from the ground up to help me create more advanced applications in the future. This project contains other smaller projects that use redux in a variety of ways",
+    projectsUrl : "https://github.com/edboorn/redux"
+    },
+  {
     title: "Nasa Explorer",
     techUsed: ["React", "Javascript", "GH-Pages"],
     description:
