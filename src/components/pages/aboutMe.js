@@ -7,8 +7,7 @@ export default function aboutMe() {
         <div className="col">
           <h1>Hi, I'm <code>Ed</code></h1>
           <p>
-            I am a Product Analyst at
-            PepperHQ and I love technology. As a developer-come-product person, I bring a wealth of
+            I am a Digital Product Manager at Studio Graphene. As a developer-come-product person, I bring a wealth of
             experience from both disciplines which allows me to get the most out
             of the products that I am delivering.{" "}
           </p>
