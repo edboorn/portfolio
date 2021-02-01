@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+  <script>
+    (function (w,n,pid) {
+      w[n]=w[n] || (function () {
+        d=document,h=d.getElementsByTagName('head')[0],s=d.createElement('script'),eq=[];
+        s.src="https://cdn.gingertag.com/gt.js?pid="+pid;s.type='text/javascript';s.async=1;h.appendChild(s);
+        return {event:function(){w[n].eq.push(arguments);},eq};
+      }());
+    })(window,'gingertag',1415451403);
+  </script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
